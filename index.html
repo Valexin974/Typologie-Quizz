@@ -1737,6 +1737,7 @@ weakresToggle.addEventListener("click", () => {
 });
 const autoAdvanceToggle = document.getElementById("autoadvance-toggle");
 const autoAdvanceSwitch = document.getElementById("autoadvance-switch");
+let autoAdvance = false;
 autoAdvanceToggle.addEventListener("click", () => {
   autoAdvance = !autoAdvance;
   autoAdvanceSwitch.classList.toggle("on", autoAdvance);
